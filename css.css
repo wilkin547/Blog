@@ -7,9 +7,16 @@
     font-size: 60px;
 }
 .Portada{
-    width: 50mm;
+    width: 75mm;
+    height: 50mm;
+    padding-right: 5mm;
+    border-radius: 6mm;
+    border-color: solid,aqua;
 }
 
 body {
  background-color:brown;
+}
+#blog_Content{
+    display: flex;
 }
