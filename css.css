@@ -21,7 +21,7 @@
     border-radius: 6mm;
 }
 body {
- background-color:#015094;
+ background-color:white;
 }
 #blog_Content{
     grid-template-columns: 90mm 90mm;
