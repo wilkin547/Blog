@@ -1,22 +1,31 @@
 #encabezado{
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
-    font-size: 60px;
+    background-color: #000000ab;
+    color: #0159A6;
+    font-size: 44px;
 }
 .Portada{
     width: 75mm;
     height: 50mm;
-    padding-right: 5mm;
     border-radius: 6mm;
-    border-color: solid,aqua;
+    
 }
 
+.blog{
+    background-color: white;
+    margin: 3mm;
+    padding: 3mm;
+    border-radius: 6mm;
+}
 body {
- background-color:brown;
+ background-color:#015094;
 }
 #blog_Content{
-    display: flex;
+    grid-template-columns: 90mm 90mm;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
 }
